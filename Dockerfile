@@ -2,6 +2,6 @@
 # Note this base image is based on debian
 FROM nginx
 MAINTAINER Tim Sutton<tim@kartoza.com>
-COPY django.conf /etc/nginx/conf.d/django.conf
+COPY django.conf /etc/nginx/conf.d/default.conf
 
 
